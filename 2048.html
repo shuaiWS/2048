@@ -1,0 +1,23 @@
+<!doctype html>
+ <html>
+ <head>
+  <title>2048</title>
+  <meta  charset="utf-8"/>
+  <link rel="stylesheet" href="2048.css"/>
+  <script src="2048.js"></script>
+ </head>
+ <body>
+	<p>Scrore:<span id="score">0</span></p>
+  <div id="gridPanel">
+  </div>
+  <div id="gameOver">
+	<div><!--灰色半透明背景--></div>
+	<!--前景小窗口-->
+	<p>
+		GameOver!<br>
+		score:<span id="finalScore"></span><br>
+		<a class="button" id="restart" onclick="game.start()">Try again!</a>
+	</p>
+  <div>
+ </body>
+</html>
